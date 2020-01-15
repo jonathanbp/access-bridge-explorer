@@ -192,6 +192,7 @@ namespace WindowsAccessBridgeInterop {
       public bool IsLegacy { get; set; }
     }
 
+    // TODO this probably needs to take a full path which overrides the below given logic
     private static AccessBridgeLibrary LoadLibrary() {
       try {
         AccessBridgeLibrary library;
